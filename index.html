@@ -46,15 +46,10 @@
                 <div class="col-1">
 
                     <!--Logo-->
-                    <div id="logo">
+                    <div id="logo" class="h-32 w-32">
 
                         <!--Logo that is shown on the banner-->
                         <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
-                        <!--End of Banner Logo-->
-
-                        <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
-                        <!--End of Navigation Logo-->
 
                     </div>
                     <!--End of Logo-->
@@ -68,16 +63,16 @@
                                 <a href="#banner">Home</a>
                             </li>
                             <li>
-                                <a href="#about">About</a>
+                                <a href="#projects">Projects</a>
                             </li>
                             <li>
-                                <a href="#projects">Projects</a>
+                                <a href="#about">About</a>
                             </li>
                             <li>
                                 <a href="#skills">Skills</a>
                             </li>
                             <li>
-                                <a href="#contact me">Contact me</a>
+                                <a href="#contactme">Contact me</a>
                             </li>
                         </ul>
                     </nav>
@@ -118,12 +113,12 @@
                         <h3 >projects and services</h3>
                         <h2 class="section-title">Services</h2>
                     </div>
-                    <div class="pl-20 grid grid-cols-2 gap-4 ">
+                    <div class="pl-20 grid lg:grid-cols-2 gap-4 ">
                         <div>
                             <i class="fa-solid fa-code text-6xl text-amber-400"></i> 
                             <h2 class="font-bold text-2xl">Frontend development</h2>
                             <p class="w-2/3">Beautiful and interactive websites with a futeristic feel. I make websites that are 
-                                eye catching and clearly convey your brands message. <a class="text-amber-400" href="https://github.com/Njeriee">my github account</a> and <a class="text-amber-400" href="https://kwelicapital.com/">a website I have worked on</a> 
+                                eye catching and clearly convey your brands message.Here is <a class="text-amber-400" href="https://github.com/Njeriee">my github account</a> and <a class="text-amber-400" href="https://kwelicapital.com/">a website I have worked on</a> 
                             </p> 
                         </div>
                         <div>
@@ -158,14 +153,14 @@
         </section>
         <div id="about" class="scrollto clearfix">
 
-            <div class="row no-padding-bottom clearfix">
+            <div class="row no-padding-bottom clearfix grid gap-6 lg:grid-cols-3">
 
 
                 <!--Content Left Side-->
-                <div class="col-3">
+                <div class="p-10">
                     <!--User Testimonial-->
                     <blockquote class="testimonial text-right bigtest">
-                        <q>Information is the oil of the 21st century, and analytics is the combustion engine.</q>
+                        <q><i>Information is the oil of the 21st century, and analytics is the combustion engine.</i></q>
                         <footer>— Peter Sondergaard, Senior Vice President and Global Head of Research at Gartner, Inc.</footer>
                     </blockquote>
                     <!-- End of Testimonial-->
@@ -174,7 +169,7 @@
                 <!--End Content Left Side-->
 
                 <!--Content of the Right Side-->
-                <div class="col-3">
+                <div class="p-10 lg:p-0">
                     <div class="section-heading">
                         <h3>ABOUT ME</h3>
                         <h2 class="section-title">I can help you understand and use data to make better decisions.</h2>
@@ -189,13 +184,14 @@
                         can help us make better decisions about how to 
                         allocate resources and address social challenges. Frontend engineering can be used to develop user-friendly web applications that can make information and services more accessible to everyone.
                     </p>
-                    <a href="#projects" class="button video link-lightbox">
+                    <a href="#projects" class="button">
                         PROJECTS I'VE WORKED ON
                     </a>
+                    <!-- <a href="#about" class="button">ABOUT ME</a> -->
                 </div>
                 <!--End Content Right Side-->
 
-                <div class="col-3">
+                <div class="p-10 lg:p-0">
                     <img src="images/saveline.jpeg" alt="saveline"/>
                     <!-- <div class='tableauPlaceholder' id='viz1697393029779' style='position: relative'><noscript><a href='#'><img alt='Master of Sleep: Lindsay B Sleep Data ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MasterofSleepLindsayBSleepData&#47;MasterofSleepLindsayBSleepData&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MasterofSleepLindsayBSleepData&#47;MasterofSleepLindsayBSleepData' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MasterofSleepLindsayBSleepData&#47;MasterofSleepLindsayBSleepData&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1697393029779');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement); </script> -->
                 </div>
@@ -205,54 +201,45 @@
 
         </div>
 
-        <section id="skills" class="scrollto clearfix">
-            <div class="row clearfix">
+        <section id="skills" class="scrollto clearfix mb-20 p-10">
+            <div class="row clearfix h-80">
 
-                <div class="">
-
-                    <div class="section-heading">
-                        <h3>SKILLS</h3>
-                        <h2 class="section-title">Tools I am handy with</h2>
+                <div class="section-heading">
+                    <h3>SKILLS</h3>
+                    <h2 class="section-title">Tools I am handy with</h2>
+                </div>
+                <div class="grid grid-cols-2 gap-4 lg:grid-cols-4 place-items-center">
+                    <div class="lg:w-1/4 text-8xl text-gray-400 tooltip">
+                        <i class="fa-brands fa-python"></i>
+                        <span class="tooltiptext text-sm">Python</span> 
                     </div>
-
+                    <div class="lg:w-1/4 text-8xl text-gray-400 tooltip">
+                        <i class="fa-brands fa-js"></i>
+                        <span class="tooltiptext text-sm">Javascript</span>
+                    </div>
+                    <div class="lg:w-1/4 text-8xl text-gray-400 tooltip">
+                        <i class="fa-solid fa-r"></i>
+                        <span class="tooltiptext text-sm">R</span>
+                    </div>
+                    <div class="lg:w-1/4 text-8xl text-gray-400 tooltip">
+                        <i class="fa-brands fa-html5"></i>
+                        <span class="tooltiptext text-sm">Html and Css</span>
+                    </div>
                 </div>
-
-                <div class="grid grid-cols-4">
-                </div>
-
             </div>
         </section>
-        <section class="bg-yellow-500 h-80 px-20 flex">
-            <div class="w-1/2">
-                <h1 class="text-white text-3xl font-bold py-10">Connect with me</h1>
+        <section id="contactme" class="bg-amber-400 lg:h-80 px-20 flex">
+            <div class="my-10 border-r-2 border-white w-1/2">
+                <h1 class="text-white text-3xl font-bold p-4 ">Connect with me</h1>
             </div>
-            <div class="w-1/2">
-                email
-                linkedIn
+            <div class="w-1/2 px-10">
+                <h2 class="text-white"><i class="fa-brands fa-linkedin font-bold p-4 text-3xl text-gray-500"></i><a class="hover:text-gray-500" href="https://www.linkedin.com/in/saveline-wachira-0b56b8160/" target="_blank">linkedIn</a></h2>
+                <h2 class="text-white"><i class="fa-brands fa-github font-bold p-4 text-3xl text-gray-500"></i><a class="hover:text-gray-500" href="https://github.com/Njeriee" target="_blank">github</a></h2>
+                <h2 class="text-white"><i class="fa-solid fa-envelope font-bold p-4 text-3xl text-gray-500"></i><a class="hover:text-gray-500" href="mailto:savelinnjeri@gmail.com" target="_blank">email me</a></h2>
             </div>
         </section>
 
     </main>
-
-
-    <!--Footer-->
-    <footer id="landing-footer" class="clearfix">
-        <div class="row clearfix">
-
-            <p id="copyright" class="col-2">Sav Wachira</p>
-
-            <!--Social Icons in Footer-->
-            <ul class="col-2 social-icons">
-                <li>
-                    <a target="blank" title="Facebook" href="https://www.facebook.com/username">
-                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
-                    </a>
-                </li>
-            </ul>
-            <!--End of Social Icons in Footer-->
-        </div>
-    </footer>
-    <!--End of Footer-->
 
 </div>
 
